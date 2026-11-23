@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "MAXING OUT",
+    "slug": "maxing-out",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.maxingout.app"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow MAXING OUT to select photos for your grooming progress.",
+          "cameraPermission": "Allow MAXING OUT to take photos for your grooming progress."
+        }
+      ]
+    ]
+  }
+}
